@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+
+    <p>Tente abrir esse site em vários dispositivos diferentes </p>
+
+    <picture>
+        <!--Imagem pequena-->
+        <source media="(max-width: 750px)" srcset="imagens/photo-p.png" type="image/png">
+        <!--Imagem média-->
+        <source media="(max-width: 1050px)" srcset="imagens/photo-m.png" type="image/png">
+        <!--Imagem grande-->
+        <img  src="imagens/photo-g.png" alt="imagem flexível">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender reproduzir audio no html 5</p>
+    
+    <audio preload="metadata" autoplay controls>
+         
+         <source src="midia/Seu Jorge - Amiga da minha mulher_70k.mp3" type="audio/mpeg">
+
+    </audio>
+    
+     
+</body>
+</html>
